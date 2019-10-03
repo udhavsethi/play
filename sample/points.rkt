@@ -8,6 +8,7 @@
 ;;*************************************
 ;;
 
+
 ;; (make-point x y) consumes two numbers x and y, and produces
 ;; the list of length 2 containing x and y. 
 ;; make-point: Num Num -> (listof Num)
@@ -20,6 +21,7 @@
 
 ;; (x-coord point) consumes a point and produces its x coordinate
 ;; x-coord: (listof Num) -> Num
+;; requires: list point is length 2
 ;; Example:
 (check-expect (x-coord (make-point 3 1)) 3)
 (check-expect (x-coord (make-point 4 2)) 4)
@@ -37,6 +39,7 @@
 
 ;; (y-coord point) consumes a point and produces its y coordinate
 ;; y-coord: (listof Num) -> Num
+;; requires: list point is length 2
 ;; Example:
 (check-expect (y-coord (make-point 3 1)) 1)
 (check-expect (y-coord (make-point 4 2)) 2)
@@ -54,8 +57,9 @@
 ;; (increment-x point number) consumes a point and increases the x
 ;; coordinate of the point by number
 ;; make-step: (listof Num) Nat -> (listof Num)
+;; requires: list point is length 2
 ;; Example:
-(check-expect (increment-x (make-point 0 0) 4) (make-point 4 0))
+(check-expect (increment-x starting-point 4) (make-point 4 0))
 (check-expect (increment-x (make-point 8 1) 5) (make-point 13 1))
 
 (define (increment-x point number)
@@ -72,8 +76,9 @@
 ;; (increment-y point number) consumes a point and increases the y
 ;; coordinate of the point by number
 ;; make-step: (listof Num) Nat -> (listof Num)
+;; requires: list point is length 2
 ;; Example:
-(check-expect (increment-y (make-point 0 0) 4) (make-point 0 4))
+(check-expect (increment-y starting-point 4) (make-point 0 4))
 (check-expect (increment-y (make-point 8 1) 5) (make-point 8 6))
 
 (define (increment-y point number)
@@ -91,8 +96,9 @@
 ;; and produces true if point lies below the line formed by left and right,
 ;; and false otherwise.
 ;; below-line?: (listof Num) (listof Num) (listof Num) -> Bool
+;; requires: left, right, and point are all length 2
 ;; Example:
-(check-expect (below-line? (make-point 0 1) (make-point 1 1) (make-point 0 0)) true)
+(check-expect (below-line? (make-point 0 1) (make-point 1 1) starting-point) true)
 (check-expect (below-line? (make-point 0 1) (make-point 1 1) (make-point 0 2)) false)
 
 (define (below-line? left right point)
@@ -103,23 +109,28 @@
 ;; tests
 (check-expect (below-line? (make-point 0 1) (make-point 1 1) (make-point 2 0)) true)
 (check-expect (below-line? (make-point 0 1) (make-point 1 1) (make-point 11 0)) true)
-(check-expect (below-line? (make-point 0 2) (make-point 1 1) (make-point 0 0)) true)
+(check-expect (below-line? (make-point 0 2) (make-point 1 1) starting-point) true)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
+;; Constants
+(define starting-point (make-point 0 0))
+(define ending-point (make-point 10 0))
+
 ;; (below-spline? left right point) consumes 3 points left, right and point,
 ;; and produces true if point lies between the curve formed by (0,0), left, right, and (10,0)
 ;; and the x-axis, and false otherwise.
 ;; below-spline?: (listof Num) (listof Num) (listof Num) -> Bool
+;; requires: left, right, and point are all length 2
 ;; Example:
 (check-expect (below-spline? (make-point 1 1) (make-point 9 1) (make-point 0 1)) false)
 (check-expect (below-spline? (make-point 1 1) (make-point 9 1) (make-point 1 0)) true)
 
 (define (below-spline? left right point)
     (cond
-    [(and (below-line? (make-point 0 0) left point) (below-line? left right point) (below-line? right (make-point 10 0) point)) true]
+    [(and (below-line? starting-point left point) (below-line? left right point) (below-line? right ending-point point)) true]
     [else false]))
 
 ;;tests
@@ -134,7 +145,10 @@
 ;; (a symbol, either ’N, ’S, ’E, or ’W) and a distance (a positive number) and
 ;; produces a new point which is the position after moving the specified distance
 ;; in the specified direction.  
-;; make-step: arr sym Nat -> arr
+;; make-step: (listof Num) Sym Nat -> (listof Num)
+;; requires: list point is length 2
+;;           direction is (anyof `N `S `E `W)
+;;           distance > 0
 ;; Example:
 (check-expect (make-step (make-point 2 3) 'E 2) (make-point 4 3))
 (check-expect (make-step (make-point 2 3) 'N 1) (make-point 2 4))
