@@ -1,2 +1,2 @@
 # play
-Playground for problem solving code
+Playground for problem solving code and sample programs.
