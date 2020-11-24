@@ -5,3 +5,4 @@ class Solution:
             if stone in J:
                 count+=1
         return count
+​
