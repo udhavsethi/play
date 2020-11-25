@@ -19,3 +19,4 @@ class Solution:
             return self.ifInRange(root.val, low, high) + self.rangeSumBST(root.left, low, high)
         else:
             return self.ifInRange(root.val, low, high) + self.rangeSumBST(root.left, low, high) + self.rangeSumBST(root.right, low, high)
+​
