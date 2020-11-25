@@ -6,6 +6,7 @@ class Solution:
                 if sublist[0] == arr[i]:     # match found with first element of a sublist
                     compareList.extend(sublist)
                     i += len(sublist)
+                    pieces.remove(sublist)
                     break
         if compareList == arr:
             return True
