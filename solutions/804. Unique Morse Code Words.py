@@ -20,4 +20,3 @@ class Solution:
                 morseList.append(code)
                 res += 1
         return res
-​
