@@ -16,3 +16,4 @@ class Solution:
             if quotient == 0:  # num is divisible by all digits
                 res.append(num)
         return res
+​
