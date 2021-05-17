@@ -11,3 +11,17 @@ class Solution:
                         return kweakest
         kweakest.extend(rowIndices)
         return kweakest[:k]
+​
+    
+#############################################
+​
+#  revisit
+​
+# Used `for rowIndex in rowIndices[:]` and not `for rowIndex in rowIndices`
+# because otherwise the iteration fails
+# ref: https://stackoverflow.com/a/1207427/8743880
+​
+# Alternate Solution
+​
+# Add content of each row; create tuple (rowIndex, rowSum) 
+# sort on rowSum; sort on rowIndex, return top k rowIndex
