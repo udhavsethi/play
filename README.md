@@ -13,6 +13,7 @@
 |933|[ Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Python3](./solutions/933.%20Number%20of%20Recent%20Calls.py)|300 ms|
 |942|[ DI String Match](https://leetcode.com/problems/di-string-match/)|[Python3](./solutions/942.%20DI%20String%20Match.py)|N/A|
 |961|[ N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python3](./solutions/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py)|192 ms|
+|1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|112 ms|
 |1342|[ Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Python3](./solutions/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.py)|32 ms|
 |1640|[ Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[Python3](./solutions/1640.%20Check%20Array%20Formation%20Through%20Concatenation.py)|44 ms|
 |1662|[ Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Python3](./solutions/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.py)|32 ms|
