@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|24 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|32 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|32 ms|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|56 ms|
