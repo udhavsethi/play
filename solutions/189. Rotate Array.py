@@ -7,3 +7,8 @@ class Solution:
         k = k % n
         if k > 0 and n > 1:
             nums[:] = nums[-k:] + nums[:(n-k)]
+​
+        # review
+        # don't know why doesn't work:
+        # n = len(nums)
+        # nums[:] = [nums[(i+k+1)%n] for i in range(n)]
