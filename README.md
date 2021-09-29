@@ -7,7 +7,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|684 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](./solutions/88.%20Merge%20Sorted%20Array.py)|40 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py)|68 ms|
-|189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|220 ms|
+|189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|N/A|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|116 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|24 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|16 ms|
