@@ -25,6 +25,7 @@
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|28 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|28 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|76 ms|
+|876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|24 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python3](./solutions/905.%20Sort%20Array%20By%20Parity.py)|76 ms|
 |933|[ Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Python3](./solutions/933.%20Number%20of%20Recent%20Calls.py)|300 ms|
 |942|[ DI String Match](https://leetcode.com/problems/di-string-match/)|[Python3](./solutions/942.%20DI%20String%20Match.py)|N/A|
