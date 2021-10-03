@@ -1,5 +1,6 @@
-class Solution:
-    
+# review
+class Solution:  
+    # optimized
     def lengthOfLongestSubstring(self, s: str) -> int:
         seen = {}
         max_len = 0
@@ -12,8 +13,7 @@ class Solution:
             else:
                 seen[char] = curr
                 running_len += 1
-                if running_len > max_len:
-                    max_len = running_len
+                max_len = max(running_len, max_len)
         return max_len
     
     # def lengthOfLongestSubstring(self, s: str) -> int:
@@ -31,3 +31,6 @@ class Solution:
     #         else:
     #             seen[char] = i
     #             count += 1
+    #             if count > max_count:
+    #                 max_count = count
+    #     return max_count
