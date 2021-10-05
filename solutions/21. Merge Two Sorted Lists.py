@@ -18,12 +18,11 @@ class Solution:
         while l1 is not None and l2 is not None:
             if l1.val >= l2.val:
                 head.next = l2
-                head = head.next
                 l2 = l2.next
             else:
                 head.next = l1
-                head = head.next
                 l1 = l1.next
+            head = head.next
         head.next = l2 if l1 is None else l1
         return headref
             
