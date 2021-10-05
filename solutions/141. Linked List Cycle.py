@@ -10,14 +10,12 @@
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         slow, fast = head, head
-        try:
-            while fast is not None:
-                slow = slow.next
-                fast = fast.next.next
-                if slow == fast:
-                    return True
-        except:
-            return False
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
 ​
 # class Solution:
 #     def hasCycle(self, head: ListNode) -> bool:
