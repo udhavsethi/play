@@ -29,6 +29,7 @@
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|32 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|32 ms|
 |566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Python3](./solutions/566.%20Reshape%20the%20Matrix.py)|84 ms|
+|567|[ Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Python3](./solutions/567.%20Permutation%20in%20String.py)|N/A|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|56 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|224 ms|
