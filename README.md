@@ -20,6 +20,7 @@
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|68 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|56 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|116 ms|
+|232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|32 ms|
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Python3](./solutions/242.%20Valid%20Anagram.py)|52 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|24 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|16 ms|
