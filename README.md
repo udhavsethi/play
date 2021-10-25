@@ -36,7 +36,7 @@
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|224 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|28 ms|
-|733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)||
+|733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|133 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|28 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|28 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|76 ms|
