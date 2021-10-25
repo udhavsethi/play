@@ -33,7 +33,7 @@
 |566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Python3](./solutions/566.%20Reshape%20the%20Matrix.py)|84 ms|
 |567|[ Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Python3](./solutions/567.%20Permutation%20in%20String.py)|388 ms|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|56 ms|
-|695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|210 ms|
+|695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|134 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|224 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|28 ms|
