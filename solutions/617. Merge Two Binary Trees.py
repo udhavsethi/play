@@ -9,9 +9,9 @@ class Solution:
         if root1 == None and root2 == None:
             return None
         elif root1 == None:
-            return TreeNode(root2.val, root2.left, root2.right)
+            return root2
         elif root2 == None:
-            return TreeNode(root1.val, root1.left, root1.right)
+            return root1
         else:
             return TreeNode(root1.val+root2.val, self.mergeTrees(root1.left, root2.left), self.mergeTrees(root1.right, root2.right))
 ​
