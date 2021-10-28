@@ -7,11 +7,11 @@
 ​
 # cleaner recursive solution
 class Solution:
-    def reverse(self, node, prev):
-        if prev is None:
-            return node
-        newhead = self.reverse(prev, prev.next)
-        prev.next = node
+    def reverse(self, left, right):
+        if right is None:
+            return left
+        newhead = self.reverse(right, right.next)
+        right.next = left
         return newhead
 ​
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -30,3 +30,6 @@ class Solution:
 #         return node
 ​
 #     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+#         if head is None:
+#             return head
+#         newhead = head
