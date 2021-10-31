@@ -7,3 +7,7 @@ class Solution:
         elif n % 2 == 0:
             return self.isPowerOfTwo(n/2)
         return False
+    
+        # review
+        # bit manipulation
+        # return n > 0 && ((n & (n-1)) == 0);
