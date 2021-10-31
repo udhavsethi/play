@@ -44,6 +44,7 @@
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|56 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|134 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
+|701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|224 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|28 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|133 ms|
