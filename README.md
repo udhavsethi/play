@@ -20,6 +20,7 @@
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)|36 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python3](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py)|122 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|24 ms|
+|120|[ Triangle](https://leetcode.com/problems/triangle/)|[Python3](./solutions/120.%20Triangle.py)|80 ms|
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python3](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)|936 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|128 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|48 ms|
