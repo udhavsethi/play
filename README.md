@@ -9,6 +9,7 @@
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|40 ms|
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|48 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|196 ms|
+|45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](./solutions/45.%20Jump%20Game%20II.py)|4276 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|28 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|684 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](./solutions/70.%20Climbing%20Stairs.py)|20 ms|
