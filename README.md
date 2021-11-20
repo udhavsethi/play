@@ -62,6 +62,7 @@
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|224 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|28 ms|
+|718|[ Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python3](./solutions/718.%20Maximum%20Length%20of%20Repeated%20Subarray.py)|N/A|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|133 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|28 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|44 ms|
