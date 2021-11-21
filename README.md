@@ -82,6 +82,7 @@
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|565 ms|
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|112 ms|
 |1342|[ Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Python3](./solutions/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.py)|32 ms|
+|1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Python3](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|N/A|
 |1640|[ Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[Python3](./solutions/1640.%20Check%20Array%20Formation%20Through%20Concatenation.py)|44 ms|
 |1662|[ Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Python3](./solutions/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.py)|32 ms|
 |1704|[ Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Python3](./solutions/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.py)|36 ms|
